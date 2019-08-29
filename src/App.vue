@@ -1,33 +1,33 @@
 <template>
   <v-app>
-    <v-app-bar app>
+    <v-app-bar dense app dark height=60>
       <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
+        <span>Dakota </span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
+      <v-divider vertical></v-divider>
       <v-btn
         text
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        href="https://www.linkedin.com/in/dakota-parker-7a1041137/"
         target="_blank"
+        style="margin-left:5px"
       >
-        <span class="mr-2">Latest Release</span>
+        ADD ME ON
+        <img src="@/assets/linkedin.svg" style="margin-left:5px;height:20px"/>
       </v-btn>
     </v-app-bar>
 
-    <v-content>
-      <HelloWorld/>
+    <v-content style="background-color:rgb(33,33,33);height:calc(100vh - 60px)">
+      <router-view/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
   },
   data: () => ({
     //
