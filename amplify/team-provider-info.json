@@ -1,0 +1,14 @@
+{
+    "dakota": {
+        "awscloudformation": {
+            "AuthRoleName": "dakotajamesparker-dakota-20190828231946-authRole",
+            "UnauthRoleArn": "arn:aws:iam::326571719118:role/dakotajamesparker-dakota-20190828231946-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::326571719118:role/dakotajamesparker-dakota-20190828231946-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "dakotajamesparker-dakota-20190828231946-deployment",
+            "UnauthRoleName": "dakotajamesparker-dakota-20190828231946-unauthRole",
+            "StackName": "dakotajamesparker-dakota-20190828231946",
+            "StackId": "arn:aws:cloudformation:us-east-1:326571719118:stack/dakotajamesparker-dakota-20190828231946/531053e0-c9ea-11e9-b301-0a182a3cd028"
+        }
+    }
+}
