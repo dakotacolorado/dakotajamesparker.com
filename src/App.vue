@@ -12,12 +12,11 @@
         target="_blank"
         style="margin-left:5px"
       >
-        ADD ME ON
-        <img src="@/assets/linkedin.svg" style="margin-left:5px;height:20px"/>
+        <img src="@/assets/linkedin.svg" style="margin-left:5px;height:25px"/>
       </v-btn>
     </v-app-bar>
 
-    <v-content style="background-color:rgb(33,33,33);height:calc(100vh - 60px)">
+    <v-content style="height:calc(100vh - 60px)">
       <router-view/>
     </v-content>
   </v-app>
